@@ -572,7 +572,7 @@ const html = `<!DOCTYPE html>
       style="padding:5px 10px;border-radius:6px;border:none;font-weight:600;font-size:0.85rem;cursor:pointer">
       <option value="">— elegir —</option>
       <option value="Nacho">Nacho</option>
-      <option value="Ariel">Ariel</option>
+      <option value="Vincenzo">Vincenzo</option>
     </select>
     <span id="sync-indicator" style="font-size:0.75rem;opacity:0.7">⟳ Sin conectar</span>
   </div>

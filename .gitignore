@@ -1,0 +1,5 @@
+*-raw.html
+node_modules/
+casemi-data.json
+panorama-data.json
+*.log

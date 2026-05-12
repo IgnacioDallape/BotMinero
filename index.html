@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bot Minero</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #f0efe9;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+      padding: 24px;
+    }
+    h1 { font-size: 1.8rem; color: #1a4a2e; font-weight: 700; text-align: center; }
+    p  { color: #666; font-size: 0.95rem; text-align: center; }
+    .cards {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 28px 32px;
+      text-decoration: none;
+      color: inherit;
+      width: 260px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      transition: box-shadow 0.15s, transform 0.15s;
+    }
+    .card:hover { box-shadow: 0 6px 20px rgba(0,0,0,0.12); transform: translateY(-2px); }
+    .card .icon { font-size: 2.2rem; }
+    .card h2 { font-size: 1.1rem; color: #1a1a18; }
+    .card p  { font-size: 0.82rem; color: #666; text-align: left; }
+    .badge {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+      background: #e8f5ee;
+      color: #1a4a2e;
+      margin-top: 4px;
+      width: fit-content;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>⛏ Bot Minero</h1>
+    <p style="margin-top:8px">Herramientas de prospección para la industria minera</p>
+  </div>
+
+  <div class="cards">
+    <a class="card" href="/prospectos.html">
+      <span class="icon">🎯</span>
+      <h2>CRM Prospectos</h2>
+      <p>702 empresas mineras rankeadas por servicio. Scoring, seguimiento y sincronización entre usuarios.</p>
+      <span class="badge">Transporte · Contenedores · IA Depósito</span>
+    </a>
+
+    <a class="card" href="/expo-minera.html">
+      <span class="icon">🏭</span>
+      <h2>Expo San Juan 2026</h2>
+      <p>Lista completa de los 427 expositores de la Expo Minera San Juan 2026. Búsqueda y exportación.</p>
+      <span class="badge">427 expositores · Offline</span>
+    </a>
+  </div>
+</body>
+</html>
